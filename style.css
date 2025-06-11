@@ -10,7 +10,7 @@ body {
 .header {
     display: flex;
     background: #1f2937;
-    color: #E5E7EB;
+    
     justify-content: space-between;
     align-items: center;
     padding: 15px 150px;
@@ -23,6 +23,11 @@ body {
     color: #F9FAF8;
     font-weight: bold;
     margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 .header-main-text {
@@ -83,11 +88,32 @@ button {
 
 .content {
     display: flex;
-    gap: 30px;
+    gap: 40px;
+    padding: 50px 0px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    max-width: 184px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.content-image {
+    width: 180px;
+    height: 180px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.subtext {
+    text-align: justify;
 }
 
 .quote {
     display: flex;
+    background-color: #E5E7EB;
 }
 
 .footer {
