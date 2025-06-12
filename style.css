@@ -114,6 +114,43 @@ button {
 .quote {
     display: flex;
     background-color: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    justify-content: center;
+    gap: 2px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1f2937;
+    align-self: flex-end;
+}
+
+.box {
+    display: flex;
+    background:#3882F6;
+    margin: 70px 200px;
+    padding: 40px 60px;
+    border-radius: 8px;
+    gap: 30px;
+}
+
+.box-call {
+    font-size: 22px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.box-info {
+    font-size: 16px;
+    color: #F9FAF8;
 }
 
 .footer {
