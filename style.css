@@ -61,7 +61,7 @@ a {
     height: 280px;
 }
 
-button {
+.intro button {
     background-color: #3882F6;
     border: 0px;
     padding: 5px 20px;
@@ -131,6 +131,7 @@ button {
     font-weight: bold;
     color: #1f2937;
     align-self: flex-end;
+    width: 40%;
 }
 
 .box {
@@ -140,6 +141,7 @@ button {
     padding: 40px 60px;
     border-radius: 8px;
     gap: 30px;
+    align-items: center;
 }
 
 .box-call {
@@ -148,11 +150,34 @@ button {
     font-weight: bold;
 }
 
+.box-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
 .box-info {
     font-size: 16px;
     color: #F9FAF8;
 }
 
+.box button {
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: bold;
+    width: 150px;
+    height: 35px;
+}
+
 .footer {
     display: flex;
+    background: #1f2937;
+    color: #F9FAF8;
+    padding: 30px;
+    justify-content: center;
 }
